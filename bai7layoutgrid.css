@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "footer footer footer"
+    ;
+    gap: 3px;
+}
+.box1{
+    background: #c1a94b;
+    grid-area: header;
+    color: grey;
+}
+.box2{
+    background: goldenrod;
+    grid-area: sidebar;
+}
+.box3{
+    background: pink;
+    grid-area: content;
+}
+.box4{
+    background: #935116;
+    grid-area: footer;
+}
+.box{
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
